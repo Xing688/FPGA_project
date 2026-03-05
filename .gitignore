@@ -1,0 +1,31 @@
+# Quartus & ModelSim 产生的垃圾文件夹
+db/
+incremental_db/
+simulation/
+output_files/
+greybox_tmp/
+hc_output/
+.qsys_edit/
+hps_isw_handoff/
+sys_pll/
+
+# 各种临时文件和备份文件
+*.bak
+*.done
+*.qws
+*.smsg
+*.summary
+*.jdi
+*.pin
+*.sof
+*.pof
+*.jam
+*.jbc
+*.qdf
+*.flock
+*.rdr
+
+# ModelSim 编译库
+work/
+transcript
+vsim.wlf
