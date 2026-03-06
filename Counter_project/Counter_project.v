@@ -1,6 +1,6 @@
 //模块名：Counter_project
 //功能：使用计数器控制输出
-//说明：在计数器1、3、5时，输出信号为高电平，在其他时间为低电平
+//说明：在计数器2、4、6时，输出信号为高电平，在其他时间为低电平
 module Counter_project (
     input  wire Clk,
     input  wire Rst_n,
