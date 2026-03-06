@@ -20,7 +20,7 @@ module Counter_project (
   always @(*) begin
     // 根据计数器的值控制输出信号
     case (Counter)
-      3'b001, 3'b011, 3'b101: Out_sig = 1;  // 当计数器为1、3、5时，输出高电平
+      3'b010, 3'b100, 3'b110: Out_sig = 1;  // 当计数器为2、4、6时，输出高电平
       default: Out_sig = 0;  // 其他时间输出低电平
     endcase
   end

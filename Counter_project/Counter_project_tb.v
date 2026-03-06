@@ -9,7 +9,7 @@ module Counter_project_tb ();
   initial begin
     Clk = 0;
     Rst_n = 0;  // 初始复位
-    #15 Rst_n = 1;  // 10ns后释放复位
+    #15 Rst_n = 1;  // 15ns后释放复位
   end
 
   always #10 Clk = ~Clk;  // 每10ns翻转一次时钟,周期为20ns
