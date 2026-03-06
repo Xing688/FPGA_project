@@ -24,6 +24,7 @@ sys_pll/
 *.qdf
 *.flock
 *.rdr
+*.rpt
 
 # ModelSim 编译库
 work/
