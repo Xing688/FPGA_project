@@ -55,7 +55,7 @@ module FsmLoop_project (
           Outsign <= 1;  // 检测到完整的10010序列，输出高电平
           if (Din == 1) state <= S0;  // 可以继续检测下一轮10010序列
           else
-            state <= IDLE; // 检测到输入不匹配，回到初始状态继续检测下一轮10010序列
+            state <= S2; // 检测到第三位：0，回到S2状态
         end
         default: begin
           state   <= IDLE;
